@@ -1,6 +1,9 @@
 from rest_framework.views import APIView
+<<<<<<< HEAD
 
 <<<<<<< Updated upstream
+=======
+>>>>>>> 92669ae73793b78f5b65fef7f641e2d520ddc11e
 from .serializers import OrderSerializer
 from rest_framework.response import Response
 from django.db.models import Sum, FloatField, Q
