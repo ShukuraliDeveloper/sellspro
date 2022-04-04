@@ -1,5 +1,6 @@
 from rest_framework.views import APIView
 
+<<<<<<< Updated upstream
 from .serializers import OrderSerializer
 from rest_framework.response import Response
 from django.db.models import Sum, FloatField, Q
@@ -130,3 +131,5 @@ class OrderStatsView(APIView):
                     )
 
         return Response(data=results)
+=======
+>>>>>>> Stashed changes
